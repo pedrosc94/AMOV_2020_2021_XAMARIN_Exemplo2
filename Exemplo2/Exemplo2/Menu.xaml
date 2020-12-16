@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Exemplo2.Menu"
+             Title="Example 2 - Menu"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame VerticalOptions="CenterAndExpand" BackgroundColor="Transparent">
+                <StackLayout VerticalOptions="CenterAndExpand" Spacing="50" Padding="10">
+                    <Button Clicked="ButtonScreen1_Clicked" Text="Screen 1" BackgroundColor="DarkRed" TextColor="White" FontSize="36"/>
+                    <Button Clicked="ButtonScreen2_Clicked" Text="Screen 2" BackgroundColor="DarkGreen" TextColor="White" FontSize="36"/>
+                    <Button Clicked="ButtonScreen3_Clicked" Text="Screen 3" BackgroundColor="DarkOrange" TextColor="White" FontSize="36"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
