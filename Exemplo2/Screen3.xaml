@@ -6,6 +6,7 @@
              >
 
     <ContentPage.Content>
+        
         <ListView x:Name="listaScreen3">
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -19,5 +20,7 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+        
     </ContentPage.Content>
+    
 </ContentPage>
