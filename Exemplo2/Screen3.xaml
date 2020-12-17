@@ -11,7 +11,7 @@
                 <DataTemplate>
                     <ViewCell>
                         <FlexLayout>
-                            <Image Source="{Binding ImageSource}" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand"/>
+                            <Image Source="{Binding Imagem}" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand"/>
                             <Label Text="{Binding Texto}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
                             <Label Text="{Binding Numero}" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" />
                         </FlexLayout>
