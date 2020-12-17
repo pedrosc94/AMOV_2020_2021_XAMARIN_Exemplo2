@@ -6,8 +6,18 @@
              >
 
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ListView x:Name="listaScreen3">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <FlexLayout>
+                            <Image Source="{Binding ImageSource}" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand"/>
+                            <Label Text="{Binding Texto}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                            <Label Text="{Binding Numero}" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" />
+                        </FlexLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </ContentPage.Content>
 </ContentPage>
