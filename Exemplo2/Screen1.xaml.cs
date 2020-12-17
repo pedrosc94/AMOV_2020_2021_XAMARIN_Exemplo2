@@ -24,7 +24,7 @@ namespace Exemplo2
 
             //cria nova lista
             var ListaNumeros = new List<Numeros>();
-            //adiciona um novo elemento a lista
+            //adiciona um novo elemento a list
             for (int i = 1; i<=1000; i++)
             {
                 ListaNumeros.Add(new Numeros { Numero = i });
