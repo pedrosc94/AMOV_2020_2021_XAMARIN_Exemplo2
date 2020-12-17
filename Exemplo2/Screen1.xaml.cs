@@ -13,7 +13,7 @@ namespace Exemplo2
     public partial class Screen1 : ContentPage
     {
 
-        public class Numeros
+        public class ListaClassNumeros
         {
             public int Numero { get; set; }
         }
@@ -23,11 +23,11 @@ namespace Exemplo2
             InitializeComponent();
 
             //cria nova lista
-            var ListaNumeros = new List<Numeros>();
+            var ListaNumeros = new List<ListaClassNumeros>();
             //adiciona um novo elemento a list
             for (int i = 1; i<=1000; i++)
             {
-                ListaNumeros.Add(new Numeros { Numero = i });
+                ListaNumeros.Add(new ListaClassNumeros { Numero = i });
             }
             //associa a lista criada ao ListView "listaScreen1" no XAML
             listaScreen1.ItemsSource = ListaNumeros;
