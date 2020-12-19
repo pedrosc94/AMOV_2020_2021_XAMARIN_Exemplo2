@@ -13,10 +13,10 @@ namespace Exemplo2
     public partial class Screen3 : ContentPage
     {
         int quantidade = 15;
-        public class ClassListaImagemNomeNumero
+        public class ClassListaImagemTextoNumero
         {
-            public Image Imagem { get; set; }
-            public String Nome { get; set; }
+            public ImageSource Imagem { get; set; }
+            public string Texto { get; set; }
             public int Numero{ get; set; }
         }
 
@@ -24,16 +24,17 @@ namespace Exemplo2
         {
             InitializeComponent();
 
-            var ListaImagemNomeNumero = new List<ClassListaImagemNomeNumero>();
-            for (int i = 0; i <= quantidade; i++)
+            var ListaImagemTextoNumero = new List<ClassListaImagemTextoNumero>();
+            for (int i = 1; i <= quantidade; i++)
             {
-                ListaImagemNomeNumero.Add(new ClassListaImagemNomeNumero
-                {
-                    Imagem = {""},//verificar isto
-                    Nome = "Com dollar ${i}" + " Sem dollar {i}",
+                ListaImagemTextoNumero.Add(new ClassListaImagemTextoNumero {
+                    
+                    Imagem = ImageSource.FromUri(new Uri ("https://www.flaticon.com/svg/static/icons/svg/3898/3898248.svg")),
+                    Texto = "Texto",
                     Numero = i
                 });
             }
+            listaScreen3.ItemsSource = ListaImagemTextoNumero;
         }
     }
 }
