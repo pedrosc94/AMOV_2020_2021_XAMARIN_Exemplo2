@@ -10,7 +10,6 @@ D:\ISEC\2020_2021\AMOV_2020_2021_XAMARIN_Exemplo2\Exemplo2.Android\bin\Debug\Exe
 D:\ISEC\2020_2021\AMOV_2020_2021_XAMARIN_Exemplo2\Exemplo2.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
 D:\ISEC\2020_2021\AMOV_2020_2021_XAMARIN_Exemplo2\Exemplo2.Android\obj\Debug\90\build.props
 D:\ISEC\2020_2021\AMOV_2020_2021_XAMARIN_Exemplo2\Exemplo2.Android\obj\Debug\90\adb.props
-D:\ISEC\2020_2021\AMOV_2020_2021_XAMARIN_Exemplo2\Exemplo2.Android\obj\Debug\90\Exemplo2.Android.csprojAssemblyReference.cache
 D:\ISEC\2020_2021\AMOV_2020_2021_XAMARIN_Exemplo2\Exemplo2.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
 D:\ISEC\2020_2021\AMOV_2020_2021_XAMARIN_Exemplo2\Exemplo2.Android\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
 D:\ISEC\2020_2021\AMOV_2020_2021_XAMARIN_Exemplo2\Exemplo2.Android\obj\Debug\90\res.flag
@@ -490,3 +489,4 @@ D:\ISEC\2020_2021\AMOV_2020_2021_XAMARIN_Exemplo2\Exemplo2.Android\obj\Debug\90\
 D:\ISEC\2020_2021\AMOV_2020_2021_XAMARIN_Exemplo2\Exemplo2.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 D:\ISEC\2020_2021\AMOV_2020_2021_XAMARIN_Exemplo2\Exemplo2.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 D:\ISEC\2020_2021\AMOV_2020_2021_XAMARIN_Exemplo2\Exemplo2.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+D:\ISEC\2020_2021\AMOV_2020_2021_XAMARIN_Exemplo2\Exemplo2.Android\obj\Debug\90\Exemplo2.Android.csprojAssemblyReference.cache

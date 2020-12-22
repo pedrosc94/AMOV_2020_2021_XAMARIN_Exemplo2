@@ -12,9 +12,9 @@
                 <DataTemplate>
                     <ViewCell>
                         <FlexLayout Wrap="Wrap" Direction="Row" JustifyContent="SpaceAround">
-                            <Image Source="{Binding Imagem}" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand"/>
-                            <Label Text="{Binding Texto}" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" />
-                            <Label Text="{Binding Numero}" VerticalOptions="CenterAndExpand" HorizontalOptions="End" />
+                            <Image Source="{Binding Imagem}" WidthRequest="50"/>
+                            <Label Text="{Binding Texto}" WidthRequest="150" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                            <Label Text="{Binding Numero}" WidthRequest="50" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
                         </FlexLayout>
                     </ViewCell>
                 </DataTemplate>
