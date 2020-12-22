@@ -17,9 +17,8 @@ namespace Exemplo2
         {
             public ImageSource Imagem { get; set; }
             public string Texto { get; set; }
-            public int Numero{ get; set; }
+            public int Numero { get; set; }
         }
-
         public Screen3()
         {
             InitializeComponent();
@@ -27,9 +26,9 @@ namespace Exemplo2
             var ListaImagemTextoNumero = new List<ClassListaImagemTextoNumero>();
             for (int i = 1; i <= quantidade; i++)
             {
-                ListaImagemTextoNumero.Add(new ClassListaImagemTextoNumero {
-                    
-                    Imagem = ImageSource.FromUri(new Uri ("https://www.flaticon.com/svg/static/icons/svg/3898/3898248.svg")),
+                ListaImagemTextoNumero.Add(new ClassListaImagemTextoNumero
+                {
+                    Imagem = ImageSource.FromResource("Exemplo2.Images." + "dino" + ".png"),
                     Texto = "Texto",
                     Numero = i
                 });

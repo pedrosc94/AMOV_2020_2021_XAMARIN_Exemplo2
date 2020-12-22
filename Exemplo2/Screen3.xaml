@@ -6,21 +6,21 @@
              >
 
     <ContentPage.Content>
-        
+
         <ListView x:Name="listaScreen3">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <FlexLayout>
+                        <FlexLayout Wrap="Wrap" Direction="Row" JustifyContent="SpaceAround">
                             <Image Source="{Binding Imagem}" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand"/>
-                            <Label Text="{Binding Texto}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
-                            <Label Text="{Binding Numero}" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" />
+                            <Label Text="{Binding Texto}" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" />
+                            <Label Text="{Binding Numero}" VerticalOptions="CenterAndExpand" HorizontalOptions="End" />
                         </FlexLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        
+
     </ContentPage.Content>
     
 </ContentPage>
