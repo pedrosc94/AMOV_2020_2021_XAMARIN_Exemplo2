@@ -24,13 +24,13 @@ namespace Exemplo2
             InitializeComponent();
 
             var ListaImagemTextoNumero = new List<ClassListaImagemTextoNumero>();
-            for (int i = 1; i <= quantidade; i++)
+            for (int i = 0; i < quantidade; i++)
             {
                 ListaImagemTextoNumero.Add(new ClassListaImagemTextoNumero
                 {
                     Imagem = ImageSource.FromResource("Exemplo2.Images." + "dino" + ".png"),
                     Texto = "Texto",
-                    Numero = i
+                    Numero = i+1
                 });
             }
             listaScreen3.ItemsSource = ListaImagemTextoNumero;
