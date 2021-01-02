@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ISEC\\SAFE\\2020_2021\\AM\\XAMARIN\\AMOV_2020_2021_XAMARIN_Exemplo2\\Exemplo2\\Exemplo2.csproj": {}
+    "F:\\Documents\\ISEC\\2020_2021\\AM\\XAMARIN\\AMOV_2020_2021_XAMARIN_Exemplo2\\Exemplo2\\Exemplo2.csproj": {}
   },
   "projects": {
-    "D:\\ISEC\\SAFE\\2020_2021\\AM\\XAMARIN\\AMOV_2020_2021_XAMARIN_Exemplo2\\Exemplo2\\Exemplo2.csproj": {
+    "F:\\Documents\\ISEC\\2020_2021\\AM\\XAMARIN\\AMOV_2020_2021_XAMARIN_Exemplo2\\Exemplo2\\Exemplo2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ISEC\\SAFE\\2020_2021\\AM\\XAMARIN\\AMOV_2020_2021_XAMARIN_Exemplo2\\Exemplo2\\Exemplo2.csproj",
+        "projectUniqueName": "F:\\Documents\\ISEC\\2020_2021\\AM\\XAMARIN\\AMOV_2020_2021_XAMARIN_Exemplo2\\Exemplo2\\Exemplo2.csproj",
         "projectName": "Exemplo2",
-        "projectPath": "D:\\ISEC\\SAFE\\2020_2021\\AM\\XAMARIN\\AMOV_2020_2021_XAMARIN_Exemplo2\\Exemplo2\\Exemplo2.csproj",
+        "projectPath": "F:\\Documents\\ISEC\\2020_2021\\AM\\XAMARIN\\AMOV_2020_2021_XAMARIN_Exemplo2\\Exemplo2\\Exemplo2.csproj",
         "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-        "outputPath": "D:\\ISEC\\SAFE\\2020_2021\\AM\\XAMARIN\\AMOV_2020_2021_XAMARIN_Exemplo2\\Exemplo2\\obj\\",
+        "outputPath": "F:\\Documents\\ISEC\\2020_2021\\AM\\XAMARIN\\AMOV_2020_2021_XAMARIN_Exemplo2\\Exemplo2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

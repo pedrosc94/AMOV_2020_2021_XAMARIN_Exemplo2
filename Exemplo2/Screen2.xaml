@@ -5,5 +5,21 @@
              Title="Example 2 - Screen 2"
              >
 
-    
+    <ContentPage.Content>
+
+        <ListView x:Name="listaScreen2">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="{Binding Palavra}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </ContentPage.Content>
+
+
 </ContentPage>
